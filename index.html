@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body{
+            background-color: #3f51b5;
+            font-family: "Poppins", sans-serif;
+            
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+        .container{
+            display: flex;
+            height: 50vh;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .card{
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            height: 370px;
+            border-radius: 5px;
+            max-width: 228px;
+        }
+        .title{
+            color: #29d9c1;
+            font-weight: bolder;
+        
+        }
+        .description{
+            padding-top: 10px;
+            padding-bottom: 30px;
+            font-weight:800;
+        }
+        .price{
+            padding-bottom: 30px;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .cifras{
+            font-size: 1.5rem;
+            font-weight: bolder;
+            position: relative;
+            top: -30px;
+        }
+        .month{
+            font-size: 1rem;
+            
+        }
+        ul{
+        }
+        li{
+            list-style-type: none;
+            text-align: left;
+        }
+        .features{
+            padding-left: 15px;
+            padding-bottom: 30px;
+            color: #aeaeb0;
+        }
+        .button{
+            text-align: center;
+            
+        }
+        button{
+            background-color: #29d9c1;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            padding: 15px;
+            width: 200px;
+        }
+        @media(max-width: 761px){
+            .container{
+                flex-direction: column;
+                margin-top: 440px;
+            }
+        @media(max-height: 667px){
+            .container{
+                flex-direction: column;
+                margin-top: 500px;
+            }
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CHOOSE OUR PLAN</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio molestiae reiciendis alias nobis aspernatur sequi eaque ad enim eligendi perferendis?<br> Corrupti nulla necessitatibus facere, voluptates nobis quos autem esse quisquam!</p>
+    <div class="container">
+        <div class="card">
+            <div class="title">STARTUP</div>
+            <div class="description">Perferct for small less than 10 team</div>
+            <div class="price"><span class="cifras">$</span>16<span class="month">/month</span></div>
+            <div class="features">
+                - 1GB of space <br>
+                - Support at $25/hour <br>
+                - Small social media
+            </div>
+            <div class="button"><button>CHOOSE YOUR PLAN</button></div>
+        </div>
+        <div class="card">
+            <div class="title">INTERPRICE</div>
+            <div class="description">Perferct for small less than 10 team</div>
+            <div class="price"><span class="cifras">$</span>49<span class="month">/month</span></div>
+            <div class="features">
+                - 1GB of space <br>
+                - Support at $25/hour <br>
+                - Small social media
+            </div>
+            <div class="button"><button>CHOOSE YOUR PLAN</button></div>
+        </div>
+        <div class="card">
+            <div class="title">DEVELOPER</div>
+            <div class="description">Perferct for small less than 10 team</div>
+            <div class="price"><span class="cifras">$</span>99<span class="month">/month</span></div>
+            <div class="features">
+                - 1GB of space <br>
+                - Support at $25/hour <br>
+                - Small social media
+            </div>
+            <div class="button"><button>CHOOSE YOUR PLAN</button></div>
+        </div>
+    </div>
+</body>
+</html>
